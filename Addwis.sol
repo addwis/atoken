@@ -11,7 +11,7 @@ contract MyManagedToken is ERC20, ERC20Burnable, Ownable {
     // ① トークンの名前とシンボル（ティッカー）を設定
     constructor() ERC20("Addwis Token", "AT") Ownable(msg.sender) {
         
-        // ② 初期発行量：デプロイと同時に100万枚を発行し、作成者（Rabbyのホットウォレット）に付与
+        // ② 初期発行量：デプロイと同時に100万枚を発行し、作成者に付与
         _mint(msg.sender, 100000000 * 10 ** decimals());
     }
 

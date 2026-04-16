@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="atMonogramGradient" x1="16" y1="7" x2="16" y2="25" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3498DB"/> <stop offset="1" stop-color="#1ABC9C"/> </linearGradient>
+  </defs>
+  
+  <circle cx="16" cy="16" r="15" fill="#2C3E50"/>
+  
+  <circle cx="16" cy="16" r="15" stroke="#34495E" stroke-width="1"/>
+
+  <g fill="white">
+    <path d="M16 7 L6 25 H11 L16 16 L21 25 H26 L16 7 Z" fill="url(#atMonogramGradient)"/>
+    
+    <rect x="6.5" y="11" width="19" height="3.5" rx="1.75" fill="white"/>
+    
+    <path d="M16 11.5 L12 18H20 L16 11.5 Z" fill="#2C3E50"/>
+  </g>
+</svg>
